@@ -12,10 +12,10 @@ import "fmt"
 func main() {
 	fmt.Println("====6. Menghitung nilai fungsi f(x)====")
 
-	var x, fx float32
+	var x, fx float64
 	fmt.Print("Masukkan nilai x = ")
 	fmt.Scan(&x)
 
 	fx = (x*x*x + 3*x) / (x*x*x*x - 3*x*x + 4)
-	fmt.Printf("F(%.3f) = %f", x, fx)
+	fmt.Printf("F(%.3f) = %.8f", x, fx)
 }

@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func mains() {
 	fmt.Println("====9.5 Menggandakan digit alt====")
 
 	var x int

@@ -12,10 +12,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("====4. Celsius Kelvin Converter")
+	fmt.Println("====4. Celsius Kelvin Converter====")
 
 	var c, k float32
-	fmt.Print("Masukkan Celsius ")
+	fmt.Print("Masukkan Celsius : ")
 	fmt.Scan(&c)
 
 	k = c + 273

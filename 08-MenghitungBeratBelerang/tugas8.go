@@ -23,7 +23,7 @@ func main() {
 	g := b1 + b2 + b3
 	kg := float32(g) / 1000
 
-	fmt.Printf("Total beratnya dalah %dg", g)
-	fmt.Printf("\nTotal beratnya dalah %.2fkg", kg)
+	fmt.Printf("Total beratnya adalah %dg", g)
+	fmt.Printf("\nTotal beratnya adalah %.2fkg", kg)
 
 }
